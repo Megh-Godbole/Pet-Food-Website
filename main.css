@@ -62,7 +62,7 @@ a {
     color: rgb(240, 234, 234);
     text-align: center;
     padding: 50px 20px;
-}
+} 
 
 .hero h1 {
     font-size: 2em;
@@ -111,6 +111,13 @@ a {
 .card img {
     max-width: 100%;
     border-radius: 8px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0.8;
+}
+
+.card img:hover {
+    transform: scale(1.1); /* Slight zoom-in */
+    opacity: 1; /* Full opacity on hover */
 }
 
 .card button {
